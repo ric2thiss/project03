@@ -1,0 +1,96 @@
+.group1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.group1-group1 {
+  top:50px;
+  width: 509px;
+  height: 425px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.group1-text {
+  top: 25px;
+  left: 28px;
+  color: rgba(0, 0, 0, 1);
+  width: 139px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group1-line1 {
+  border: 1px solid #C2C2C2;
+  top: 62px;
+  left: 0px;
+  width: 509px;
+  height: 1px;
+  position: absolute;
+}
+.group1-group {
+  top: 86.00001525878906px;
+  left: 487.0000305175781px;
+  width: 12px;
+  height: 7.409999847412109px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.group1-vector {
+  top: -7px;
+  left: 0px;
+  width: 12px;
+  height: 7px;
+  position: absolute;
+}
+.group1-line2 {
+  top: 103px;
+  left: 0px;
+  width: 509px;
+  height: 1px;
+  position: absolute;
+  border: 1px solid #C2C2C2;
+}
+.group1-line3 {
+  top: 276px;
+  left: 0px;
+  width: 509px;
+  height: 1px;
+  position: absolute;
+  border: 1px solid #C2C2C2;
+}
+.group1-text2 {
+  top: 122px;
+  left: 19px;
+  color: rgba(119, 119, 119, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+#wrapper {
+  background: #ccc;
+  overflow: hidden;
+  transition: height 200ms;
+}
