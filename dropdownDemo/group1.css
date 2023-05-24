@@ -73,7 +73,9 @@
   height: 1px;
   position: absolute;
   border: 1px solid #C2C2C2;
+  transition: .9s;
 }
+
 .group1-text2 {
   top: 122px;
   left: 19px;
@@ -88,9 +90,4 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-}
-#wrapper {
-  background: #ccc;
-  overflow: hidden;
-  transition: height 200ms;
 }
