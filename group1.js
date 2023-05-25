@@ -2,13 +2,16 @@ const data_section = document.getElementById('data-section');
 const toggle = document.getElementById('image1');
 const line = document.getElementById('image2');
 const showdata = document.getElementById('data');
+const header2 = document.getElementById('header2');
 
 toggle.addEventListener('click', function() {
     line.style.top = '103px';
+    header2.style.top = '120px';
   if (data_section.style.display === 'none') {
-    showdata.style.transition = 'height 1s ease';
+    showdata.style.transition = '1s';
     data_section.style.display = 'block';
     line.style.top = '276px';
+    header2.style.top = '290px';
     setTimeout(() => {
         setTimeout(() => {
           data_section.style.height = data_section.scrollHeight + 'px';
@@ -21,11 +24,12 @@ toggle.addEventListener('click', function() {
     }, 400);
   }
 
-  image1.classList.toggle('active');
-  if (image1.classList.contains('active')) {
-    image1.src = "./public/playground_assets/arrow-down.svg";
+  toggle.classList.toggle('active');
+  console.log(toggle)
+  if (toggle.classList.contains('active')) {
+    toggle.src = "./public/playground_assets/arrow-down.svg";
   } else {
-    image1.src = "./public/playground_assets/vector18-gu1t.svg";
+    toggle.src = "./public/playground_assets/vector18-gu1t.svg";
   }
 });
 

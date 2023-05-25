@@ -33,6 +33,23 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.group1-text-header {
+  top: 290px;
+  transition:  .9s;
+  left: 28px;
+  color: rgba(0, 0, 0, 1);
+  width: 139px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 .group1-line1 {
   border: 1px solid #C2C2C2;
   top: 62px;
@@ -90,4 +107,8 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+
+#data-section {
+  transition: 1s;
 }
